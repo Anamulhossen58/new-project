@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+.row{
+    box-sizing: border-box !important;
+}
+.banner-section{
+
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+    
+   
+
+    background-image: linear-gradient(rgba(255,255,180,0.5),rgba(255,255,180,0.5)),url("pic2.jpg");
+}
+
+.background{
+    background-color: rgba(207, 207, 123, 0.507);
+}
+
+.banner-section p{
+    background-color: rgba(104, 50, 139, 0.5);
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+.le{
+    margin-left: 15rem;
+}
+.le a{
+    margin: 0 10px;
+    padding: 10px 15px;
+    transition: 0.3s;
+    border-radius: 5px;
+  
+}
+.le a:hover{
+    background-color: rgb(223, 141, 35);
+}
+
+.mainsection{
+    background-color: antiquewhite;
+    width: 100%;
+    padding-bottom: 50px;
+
+   min-height: 100vh;
+   
+}
+.pic{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(40, 43, 212, 0.411),rgba(40, 43, 212, 0.411)),url("shihab.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+@media only screen and (max-width:576px) {
+ .le{
+    margin-left: 0 !important;
+    text-align: center;
+ }   
+ .font{
+    font-size: 2rem;
+ }
+ .background{
+    background-color: antiquewhite;
+ }
+ .mainsection .row{
+    margin-bottom: 2rem !important;
+ }
+ .pro h3{
+    font-size: 18px !important;
+ }
+ 
+}
